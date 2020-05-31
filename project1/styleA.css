@@ -1,0 +1,30 @@
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+p {
+    flex: 0 0 auto;
+    background:#eeeff2;
+    width: 100px;
+    height: 100px;
+    position: center;  
+    font: 40px Tahoma;
+    text-align: center;
+    border-top: 1px #687291 solid;
+    margin-top: 5px;
+	margin-bottom: 5px;
+}
+.A ,.C ,.E{
+    background:#dfe1e7;
+}
+.F{
+    background: #687291;
+    border: 4px black solid;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+

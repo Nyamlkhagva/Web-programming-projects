@@ -1,0 +1,33 @@
+.boxes{
+    display: flex;
+    justify-content: start;
+    align-items: left;
+    flex-direction: row;
+}
+p{
+    flex: 0 0 auto;
+    background:#eeeff2;
+    width: 100px;
+    height: 150px;
+    font: 40px Tahoma;
+    text-align: left;
+    border-top: 1px #687291 solid;
+    margin: auto 10px;
+    padding: auto 10px;
+    border-color: #d0d0ff;
+    border-left-width: 10px;
+    border-left-style: dotted; 
+}
+p:hover {
+	background-color: yellow;
+	color: goldenrod;
+    cursor: pointer;
+}
+.F{
+    position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 0px;
+}
+
+
